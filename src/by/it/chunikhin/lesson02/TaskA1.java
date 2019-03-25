@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson02;
+package by.it.chunikhin.lesson02;
 /*
 напишите программу которая выводит на экран
 Hello world!
