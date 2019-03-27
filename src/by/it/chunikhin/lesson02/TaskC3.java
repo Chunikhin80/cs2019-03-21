@@ -1,5 +1,7 @@
 package by.it.chunikhin.lesson02;
 
+import java.util.Scanner;
+
 /*
 Ускорение свободного падения на Земле и Марсе таково:
 Марс   3.86
@@ -30,5 +32,12 @@ package by.it.chunikhin.lesson02;
 
 */
 class TaskC3 {
-
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        System.out.println("Введите ваш вес на Земле: ");
+        int a = s.nextInt();
+        double b = (a * (3.86/9.81));
+        b = Math.round(b*100)/100.0;
+                System.out.println("Ваш вес на Марсе" + "=" + b);
+        }
 }
