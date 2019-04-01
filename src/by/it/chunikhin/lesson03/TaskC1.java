@@ -30,8 +30,10 @@ class TaskC1 {
 
 
 
-//    public static void main(String[] args) {
-//        System.out.println(convertCelsiumToFahrenheit(40));
-//    }
+ public static void main(String[] args) {
+     System.out.println(convertCelsiumToFahrenheit(40));  }
 
+     static double convertCelsiumToFahrenheit(int celsium){
+ return celsium * 1.8 + 32;
+}
 }

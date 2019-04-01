@@ -54,9 +54,6 @@ else if (d == 0){
         else
             System.out.println("Отрицательный дискриминант");
     }
-
-
-
     }
 
 
