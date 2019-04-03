@@ -1,5 +1,7 @@
 package by.it.chunikhin.lesson04;
 
+import java.util.Scanner;
+
 /*
 Напишите программу которая спрашивает у пользователя:
 Какую вы хотите зарплату в $$$?
@@ -37,6 +39,16 @@ package by.it.chunikhin.lesson04;
 
 */
 public class TaskC1 {
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Какую вы хотите зарплату в $$$?: ");
+        int a=scanner.nextInt();
+        int i;
+        if (a<300 || a>3000)
+            System.out.println("Мы вам перезвоним!");
 
+
+
+    }
 
 }
