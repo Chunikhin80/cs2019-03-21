@@ -42,7 +42,9 @@ public class TaskB3 {
                     a[j] = t; }
             }
         }
-            System.out.println(Arrays.toString(m));
-        System.out.println(Arrays.toString(a));
+
+            System.out.println("Index of first element=" + a[0]);
+
+        System.out.println("Index of last element=" + a[9]);
     }
 }
