@@ -29,18 +29,20 @@ public class TaskB3 {
         for (int i = 0; i < m.length; i++) {
             m[i] = s.nextInt();
         }
-        for (int i = 0; i < m.length; i++) {
-            for (int j = 0; j < m.length; j++) {
-                if (m[i] < m[j]) {
-                    int t = m[i];
-                    m[i] = m[j];
-                    m[j] = t;
+        int[] a=new int[10];
+        int i=0;
+        for (i=0; i<10; i++){
+        a[i]=m[i];}
 
-                }
-
+        for (i = 0; i < a.length; i++) {
+            for (int j = 0; j < a.length; j++) {
+                if (a[i] < a[j]) {
+                    int t = a[i];
+                    a[i] = a[j];
+                    a[j] = t; }
             }
         }
-
             System.out.println(Arrays.toString(m));
+        System.out.println(Arrays.toString(a));
     }
 }
