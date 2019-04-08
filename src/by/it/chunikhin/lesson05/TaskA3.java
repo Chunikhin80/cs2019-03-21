@@ -13,6 +13,21 @@ package by.it.chunikhin.lesson05;
 0 9
 */
 
-public class TaskA3 {
+import java.util.Scanner;
 
+public class TaskA3 {
+    public static void main(String[] args) {
+        int[] nums=new int[10];
+        Scanner s=new Scanner(System.in);
+for (int i=0; i< nums.length; i++ ){
+    nums[i]=s.nextInt();
+}
+int min,max;
+min=max=nums[0];
+for (int i=1; i<nums.length; i++){
+    if ((nums[i]) > max) max=nums[i];
+    if ((nums[i]) < min) min=nums[i];
+}
+        System.out.println("Минимальное и максимальное числа:" + min + " " + max);
+    }
 }
