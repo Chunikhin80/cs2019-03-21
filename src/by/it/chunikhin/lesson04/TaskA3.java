@@ -26,12 +26,22 @@ import java.util.Scanner;
 public class TaskA3 {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
+        System.out.println("введите число a: ");
         int a=scanner.nextInt();
+        System.out.println("введите число b: ");
         int b=scanner.nextInt();
+        System.out.println("введите число c: ");
         int c=scanner.nextInt();
-        if (a==b && b==c){
-            System.out.println(a + "" + b + " " + c);
-    }
+        if (a==b && b==c) {
+            System.out.println(a + " " + b + " " + c);
+        }
+        else if (a==b){
+                System.out.println(a + " " + b);}
+       else if (a==c){
+           System.out.println(a + " " + c);  }
+        else if (b==c){
+        System.out.println(b + " " + c);  }
+}
 
     }
-}
+

@@ -26,7 +26,7 @@ package by.it.chunikhin.lesson03;
 
  //public static void main(String[] args) {
    //   System.out.println(sumDigitsInNumber(5467));
- 
+
 
 
 

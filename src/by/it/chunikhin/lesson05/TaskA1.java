@@ -24,6 +24,18 @@ package by.it.chunikhin.lesson05;
 */
 
 
+import java.util.Scanner;
+
 public class TaskA1 {
+    public static void main(String[] args) {
+        int [] array= new int[10];
+        Scanner s = new Scanner(System.in);
+        System.out.print("введите десять целых чисел");
+        for (int i=array.length-1; i>=0; i--) {
+            array[i]=s.nextInt();
+        }
+        for (int x:array){
+        System.out.println(x);}
+    }
 
 }
