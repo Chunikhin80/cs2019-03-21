@@ -1,5 +1,8 @@
 package by.it.chunikhin.lesson06;
 
+import java.security.PublicKey;
+import java.sql.SQLOutput;
+
 /*
     toString() для класса Dog
 
@@ -25,5 +28,16 @@ package by.it.chunikhin.lesson06;
 
 */
 public class TaskA2 {
+    public static void main(String[] args) {
+        Dog dog1 = new Dog();
+        dog1.setName("Шарик");
+        dog1.setAge(5);
+
+        Dog dog2 = new Dog();
+        dog2.setName("Тузик");
+        dog2.setAge(3);
+        System.out.println(dog1.toString());
+        System.out.println(dog2.toString());
+    }
 
 }
