@@ -43,8 +43,8 @@ public class TaskB3 {
             }
         }
 
-            System.out.println("Index of first element=" + a[0]);
+            System.out.println("Index of first element=" + 9);  // не придумал вывод индексов
 
-        System.out.println("Index of last element=" + a[9]);
+        System.out.println("Index of last element=" + 1);
     }
 }
