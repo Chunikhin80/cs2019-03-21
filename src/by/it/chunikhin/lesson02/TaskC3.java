@@ -36,8 +36,9 @@ class TaskC3 {
         Scanner s = new Scanner(System.in);
         System.out.println("Введите ваш вес на Земле: ");
         int a = s.nextInt();
-        double b = (a * (3.86/9.81));
-        b = Math.round(b*100)/100.0;
-                System.out.println("Ваш вес на Марсе" + "=" + b);
-        }
+
+        double b = (a * (3.86 / 9.81));
+        b = Math.round(b * 100) / 100.0;
+        System.out.println("Ваш вес на Марсе" + "=" + b);
+    }
 }

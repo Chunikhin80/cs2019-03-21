@@ -23,6 +23,7 @@ class TaskC2 {
         int b = s.nextInt();
         int sumDEC = a + b;
         System.out.println("DEC" + ":" + a + "+" + b + "=" + sumDEC);
+
     }
 
 }
