@@ -28,7 +28,7 @@ double averageAge(Dog[] dogs){.....}; //должен вычислять сред
 public class TaskB1 {
     public static void main(String[] args) {
         Dog1[] dogs = {                           // присоздании конструктора в кассе Dog перестает работать задача А1.
-                new Dog1("Шарик", 1),  // пришлось создать конструтор в классе Dog1
+                new Dog1("Шарик", 1),  // пришлось создать конструктор в классе Dog1
                 new Dog1("Жучка", 2),
                 new Dog1("Бобик", 3),
                 new Dog1("Барбос", 4),
