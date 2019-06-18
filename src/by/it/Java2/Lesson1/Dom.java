@@ -18,10 +18,19 @@ public class Dom {
             System.out.println(" Можно построить 2 дома");}
         else if ((e >= (a + d)) && (f >= (b+c))) {
             System.out.println(" Можно построить 2 дома");}
+        else if ((e >= (a+ c)) && (f >= b && f >= d)) {
+            System.out.println(" Можно построить 2 дома");}
+        else if ((e >= (a + d)) && (f >= b && b >= c)) {
+            System.out.println(" Можно построить 2 дома");}
         else if ((f >= (a + c)) && (e >= (b+d))) {
             System.out.println(" Можно построить 2 дома");}
         else if ((f >= (a + d)) && (e >= (b+c))) {
             System.out.println(" Можно построить 2 дома");}
+        else if ((f >= (a+ c)) && (e >= b && f >= d)) {
+            System.out.println(" Можно построить 2 дома");}
+        else if ((f >= (a + d)) && (e >= b && b >= c)) {
+            System.out.println(" Можно построить 2 дома");}
+
         else
             System.out.println("Нельзя построить 2 дома");
     }
