@@ -23,6 +23,9 @@ public class Money {
 
         else if (y==1){
             System.out.println(cash + " рубль");}
+        else {
+            System.out.println(cash + " рублей");
+        }
 
 
     }
