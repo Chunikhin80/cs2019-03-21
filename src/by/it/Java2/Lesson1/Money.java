@@ -11,13 +11,19 @@ public class Money {
 
         int x = cash % 100;
         int y = cash % 10;
-        if (y == 1)
-            System.out.println(cash + " рубль");
-        if (x == 1)
-          System.out.println(cash + " рублей");
-        if ((9 >= x && x >= 2) || (y > 1 && y < 5))
-            System.out.println(cash + " рубля");
-       if (20 > x && x > 10 || y >= 5 && y < 10)
-          System.out.println(cash + " рублей");
+
+        if  (x == 1 && y!=1){
+            System.out.println(cash + " рублей");}
+
+        else if (20 >= x && x >= 10 || y >= 5 && y < 10) {
+        System.out.println(cash + " рублей");}
+
+        else if ((9 >= x && x >= 2) || (y > 1 && y < 5)){
+         System.out.println(cash + " рубля");}
+
+        else if (y==1){
+            System.out.println(cash + " рубль");}
+
+
     }
 }
