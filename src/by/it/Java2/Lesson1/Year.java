@@ -14,7 +14,7 @@ public class Year {
         else if (y%4!=0)
             System.out.println("Это не високосный год");
         else
-            System.out.println("Это  високосный год");
+            System.out.println("Это високосный год");
     }
     }
 
