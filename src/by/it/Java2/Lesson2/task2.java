@@ -7,9 +7,9 @@ public class task2 {
         int i = 0;
         int a = 2;
         int array[];
-        array = new int[10];
-        while (i<=9);
-        {       if ((a % 2 == 0) || (a % 4 == 0)) {
+        array = new int[100];
+        while (i<=99)
+        {       if ((a % 13 == 0) || (a % 17 == 0)) {
                 array[i] = a;
                 a++;
                 i++;}
