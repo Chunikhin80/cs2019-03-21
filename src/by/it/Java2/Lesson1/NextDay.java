@@ -11,12 +11,12 @@ public class NextDay {
         int month=s.nextInt();
         System.out.println("Введите год");
         int year=s.nextInt();
-        if ((day == 28) && month == 2 && year%4 == 0 && year%400 == 0 && year%100 != 0)
+        if ((day == 28) && month == 2 && year%4 == 0 && year%400 == 0 && year%100 != 0) //для обычного февраля
         {
             day = 1; month ++;
             System.out.println("дата следующего дня: " + day + "." + month + "." + year);
         }
-        else if (day == 29 && month == 2 && !(year%4 == 0 && year%400 == 0 && year%100 != 0))
+        else if (day == 29 && month == 2 && !(year%4 == 0 && year%400 == 0 && year%100 != 0)) //для февраля високосного года
         {
             day = 1; month ++;
             System.out.println("дата следующего дня: " + day + "." + month + "." + year);
@@ -34,12 +34,12 @@ public class NextDay {
         else if((day == 31) && month == 12)
         {
             day = 1; month =  1; year ++;
-            System.out.println("дата следующего дня: " + day + "." + month + "." + year);
+            System.out.println("дата следующего дня: " + day + "." + month + "." + year);//для НГ
         }
         else
         {
             day ++;
-            System.out.println("дата следующего дня: " + day + "." + month + "." + year);
+            System.out.println("дата следующего дня: " + day + "." + month + "." + year); // обычный день
         }
     }
 }
