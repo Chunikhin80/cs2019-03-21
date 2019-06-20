@@ -8,13 +8,13 @@ public class task2{
        int a=2;
        int array[];
        array = new int[10];
-       while (array.length<=10);{
+       while (i<=array.length);{
            if ((a % 2==0) || (a % 4==0)){
                array[i]=a;}
-           i++;
+           i+=array[i];
            a++;
            }
-        System.out.println(array[i]);
+           System.out.println(array[i]);
        }
     }
 
