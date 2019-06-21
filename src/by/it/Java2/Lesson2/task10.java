@@ -10,6 +10,10 @@ public class task10 {
         Scanner sc=new Scanner(System.in);
         System.out.println("Введите число ");
         int a=sc.nextInt();
+       for (a=0;a<=1;a++){
+           System.out.println("Факториал числа = 1");
+           break;
+       }
         
     }
 }

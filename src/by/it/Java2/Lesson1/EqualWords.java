@@ -12,13 +12,13 @@ public class EqualWords {
         int a = w1.length();
         int b = w2.length();
 
-        if (w1.equals(w2)){
-            System.out.println("Отлично! Слова одинаковы.");}
-        else if (w1.equalsIgnoreCase(w2)){
-            System.out.println("Хорошо. Почти одинаковы.");}
-         else if (a==b) {
-              System.out.println("Ну, хотя бы они одной длины.");}
-         else
+        if (w1.equals(w2)) {
+            System.out.println("Отлично! Слова одинаковы.");
+        } else if (w1.equalsIgnoreCase(w2)) {
+            System.out.println("Хорошо. Почти одинаковы.");
+        } else if (a == b) {
+            System.out.println("Ну, хотя бы они одной длины.");
+        } else
             System.out.println("Это абсолютно разные слова");
-            }
+    }
 }
