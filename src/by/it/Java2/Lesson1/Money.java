@@ -15,10 +15,10 @@ public class Money {
         if  (x == 1 && y!=1){
             System.out.println(cash + " рублей");}
 
-        else if (20 >= x && x >= 10 || y >= 5 && y < 10) {
+        else if ((20 >= x && x >= 10) || (y >= 5 && y < 10)) {
         System.out.println(cash + " рублей");}
 
-        else if ((9 >= x && x >= 2) || (y > 1 && y < 5)){
+        else if  ((9 >= x && x >= 2)  || (y > 1 && y < 5)){
          System.out.println(cash + " рубля");}
 
         else if (y==1){
