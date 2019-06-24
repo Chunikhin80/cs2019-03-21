@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class task2 {
     public static void main(String[] args) {
         int i = 0;
-        int a = 2;
+        int a = 13;
         int array[];
         array = new int[100];
         while (i<=99)
