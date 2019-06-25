@@ -1,6 +1,6 @@
 package by.it.Java2.Lesson2;
 
-public class task21 {
+public class task2 {
     public static void main(String[] args) {
         int i = 0;
         int a = 13;

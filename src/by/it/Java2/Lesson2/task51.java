@@ -1,6 +1,6 @@
 package by.it.Java2.Lesson2;
 
-public class task5 {
+public class task51 {
     public static void main(String[] args) {
         int[][] array = {{1, 1, 1, 1, 1}, {0, 1, 1, 1, 0}, {0, 0, 1, 0, 0}, {0, 1, 1, 1, 0}, {1, 1, 1, 1, 1}};
         int i;
