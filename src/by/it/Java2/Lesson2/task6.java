@@ -4,20 +4,25 @@ public class task6 {
     public static void main(String[] args) {
 
 
-        int[][] array1 = {{1, 2}, {3, 4}};
+        int[][] array1 = {{4, 6}, {7, 8}};
         int[][] array2 = {{4, 3}, {2, 1}};
-        boolean b = false;
 
-        for (int i = 0; i < array1.length; i++) {
-            for (int j = 0; j < array1[i].length; j++) {
-                if (array1[i][j] != array2[i][j])
-                     b=false;
-                else b=true;}
-        }
-        if (b=true)
+        int j = 0;
+        int i = 0;
+        int a =0;
+        int b=0;
+        if (array1[i][j] == array2[a][b]) {
             System.out.println("Соответствующие элементы равны ");
+            i++;
+            j++;
+            a++;
+            b++;
+        }
         else
             System.out.println("Соответствующи элементы не равны");
+
+
+
     }
 
 }
