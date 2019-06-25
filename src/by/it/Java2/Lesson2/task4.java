@@ -1,5 +1,7 @@
 package by.it.Java2.Lesson2;
 
+import java.util.Random;
+
 public class task4 {
     public static void main(String[] args) {
         int array[];
@@ -13,12 +15,8 @@ public class task4 {
         }
     }
     private static int diapazon() {
-        int max=99;
-        int min=10;
-        int r;
-        int z;
-        r= (max-min);
-        z= (int) Math.floor(Math.random() * ++r)+min;
-        return z;
+        Random rand=new Random();
+        int t=rand.nextInt(95)+4;
+        return t;
             }
 }
