@@ -6,13 +6,20 @@ public class task8 {
         String[] suits = {" of Hearts", " of Spades", " of Clubs", " of Diamonds"};
         int n = ranks.length * suits.length; //кол-во карт в колоде
         String[] deck = new String[n];
-        int a = 0;
-            for (int i = 0; i < ranks.length; i++) {
-                for (int j = 0; j < suits.length; j++) {
-                    deck[a] = ranks[i] + suits[j];
-                    System.out.println(deck[a]);
-                }
+
+        for (int i = 0; i < ranks.length; i++) {
+            for (int j = 0; j < suits.length; j++) {
+                deck[suits.length*i + j] = ranks[i] + suits[j];
             }
         }
+        for (int i = 0; i < n; i++) {
+            int r = i + (int) (Math.random() * (n - i)); // случайная карта в колоде
+            String temp = deck[r];
+            deck[r] = deck[i];
+            deck[i] = temp;
+        }
+        for (int i = 0; i < n; i++) {
+            System.out.println(deck[i]);
+        }
     }
-
+}
