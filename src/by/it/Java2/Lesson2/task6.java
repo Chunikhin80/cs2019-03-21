@@ -9,8 +9,8 @@ public class task6 {
 
         int j = 0;
         int i = 0;
-        int a =0;
-        int b=0;
+        int a = 0;
+        int b = 0;
         if (array1[i][j] == array2[a][b]) {
             System.out.println("Соответствующие элементы равны ");
             i++;
