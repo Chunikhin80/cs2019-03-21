@@ -4,7 +4,7 @@ public class task6 {
     public static void main(String[] args) {
 
 
-        int[][] array1 = {{4, 2}, {7, 9}};
+        int[][] array1 = {{3, 2}, {7, 9}};
         int[][] array2 = {{4, 3}, {3, 6}};
 
         int j = 0;
