@@ -4,8 +4,8 @@ public class task6 {
     public static void main(String[] args) {
 
 
-        int[][] array1 = {{3, 2}, {7, 9}};
-        int[][] array2 = {{4, 3}, {3, 6}};
+        int[][] array1 = {{6, 6}, {6, 14}};
+        int[][] array2 = {{4, 2}, {7, 6}};
 
         int j = 0;
         int i = 0;
@@ -18,9 +18,9 @@ public class task6 {
             }
         }
         if (s > 0)
-            System.out.println("Соответствующие элементы равны");
+            System.out.println("Есть равные соответствующие элементы");
         else
-            System.out.println("Соответствующие элементы не равны ");
+            System.out.println("Нет равных соответствующих элементов");
     }
 }
 

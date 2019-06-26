@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class task3 {
     public static void main(String[] args) {
-        int array[] = new int[7];
+        int array[] = new int[4];
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите массив чисел");
         for (int i = 0; i < array.length; i++) {
