@@ -18,7 +18,7 @@ public class task3 {
         System.out.println("Max value is: " + max);
 
         int[] indexes = getIndexesNumberToArray(array, min, max);
-        
+
         sumBetweenMinAndMax(array, indexes);
     }
 
