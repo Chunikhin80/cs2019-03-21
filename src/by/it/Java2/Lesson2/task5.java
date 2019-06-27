@@ -6,11 +6,16 @@ public class task5 {
         int i;
         int j;
 
-        for (i = 0; i < array.length; i++) {
-            for (j = 0; j < array[i].length; j++) {
-            System.out.print(array[i][j]);
+            for (i = 0; i < array.length; i++) {
+                for (j = 0; j < array[i].length; j++) {
+                    if (array[i][j] == 1) {
+                        System.out.print("*");
+                    } else {
+                        System.out.print(" ");
+                    }
+                }
+                System.out.println();
+
             }
-            System.out.println();
         }
     }
-}
