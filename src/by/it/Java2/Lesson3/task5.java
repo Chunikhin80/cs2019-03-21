@@ -11,28 +11,30 @@ public class task5 {
         text = text.trim();
         int a1 = 0;
         int a2 = 1;
-        int probel = 0;
+        int word = 0;
 
-        int words = getWords(text, a1, a2, probel);
+        int words = getWords(text, a1, a2, word);
 
         if (words > 4) {
             System.out.println("Всего в Вашем тексте найдено" + " " + words + " " + "слов");
-        } else if (words < 2) {
-            System.out.println("Всего в Вашем тексте найдено" + " " + words + " " + "слово");
+        } else if ((words <= 4) && (words > 1)) {
+            System.out.println("Всего в Вашем тексте найдено" + " " + words + " " + "слова");
         } else {
-            System.out.println("Всего в Вашем тексте найдено" + " " + words + " " + "слов");
+            System.out.println("Всего в Вашем тексте найдено" + " " + words + " " + "слово");
         }
     }
 
-    private static int getWords(String text, int a1, int a2, int probel) {
+    private static int getWords(String text, int a1, int a2, int word) {
         for (int i = 0; i < text.length(); i++) {
             String t = text.substring(a1, a2);
             a1++;
             a2++;
             if (t.equals(" ")) {
-                probel++;
+                word++;
             }
         }
-        return probel + 1;
+        return word + 1;
     }
 }
+
+

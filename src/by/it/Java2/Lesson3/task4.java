@@ -8,12 +8,6 @@ public class task4 {
     }
 
 
-
-
-
-
-
-
     public static String getInitials(String name, String surname, String name2) {
         String s1 = name.substring(0, 1);
         String s2 = surname.substring(0, 1);
