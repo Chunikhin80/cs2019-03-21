@@ -15,13 +15,7 @@ public class task5 {
 
         int words = getWords(text, a1, a2, word);
 
-        if (words > 4) {
-            System.out.println("Всего в Вашем тексте найдено" + " " + words + " " + "слов");
-        } else if ((words <= 4) && (words > 1)) {
-            System.out.println("Всего в Вашем тексте найдено" + " " + words + " " + "слова");
-        } else {
-            System.out.println("Всего в Вашем тексте найдено" + " " + words + " " + "слово");
-        }
+        System.out.println(words);
     }
 
     private static int getWords(String text, int a1, int a2, int word) {
