@@ -2,7 +2,7 @@ package by.it.Java2.Lesson4;
 
 public class task1 {
     public static void main(String[] args) {
-        TimeLength timeOne = new TimeLength(12, 24, 32);
+        TimeLength timeOne = new TimeLength(1, 1, 1);
         TimeLength timeTwo = new TimeLength(25001);
 
         printTimeLength(timeOne);
@@ -60,6 +60,6 @@ class TimeLength {
 
     @Override
     public String toString() {
-        return String.format("%d h. %d m. %d s", this.hours, this.minutes, this.seconds);
+        return String.format("%d h. %d m. %d s",hours,minutes,seconds);
     }
 }
