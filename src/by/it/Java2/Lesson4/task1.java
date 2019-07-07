@@ -3,7 +3,7 @@ package by.it.Java2.Lesson4;
 public class task1 {
     public static void main(String[] args) {
         TimeLength timeOne = new TimeLength(1, 1, 1);
-        TimeLength timeTwo = new TimeLength(25001);
+        TimeLength timeTwo = new TimeLength(185);
 
         printTimeLength(timeOne);
         printTimeLength(timeTwo);
@@ -12,7 +12,7 @@ public class task1 {
     public static void printTimeLength(TimeLength time) {
 
         System.out.println("time =    " + time);
-        System.out.println("seconds = " + time.getShareSeconds());
+        System.out.println("seconds = " + time.convertTimeToSeconds());
 
     }
 }
@@ -46,7 +46,7 @@ class TimeLength {
         convertSecondsToTime(seconds);
     }
 
-    public int getShareSeconds() {
+    public int convertTimeToSeconds() {
         return this.hours * 3600 + this.minutes * 60 + this.seconds;
     }
 
