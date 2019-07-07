@@ -9,7 +9,7 @@ public class App {
 
         Rectangle rectangle = new Rectangle(one, two);
 
-        double square = service.square(rectangle);
+        double square = Service.square(rectangle);
         double diagonal = Service.diagonal(rectangle);
 
         System.out.println(square + " " + diagonal);

@@ -2,7 +2,7 @@ package by.it.Java2.Lesson4.Task3;
 
 public class Service {
 
-    public double square(Rectangle rec) {
+    public static double square(Rectangle rec) {
         double sideOne = rec.getLeftUp().getY() - rec.getRightDown().getY();
         double sideTwo = rec.getRightDown().getX() - rec.getLeftUp().getX();
         return (sideOne + sideTwo) * 2;
