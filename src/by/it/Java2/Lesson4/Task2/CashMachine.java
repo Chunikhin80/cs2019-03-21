@@ -28,7 +28,7 @@ public class CashMachine {
 
     private void printCheck(int cash) {
         int first = cash / 100;
-        System.out.println("Выдано " + first + " банкноты номиналом номиналом 100");
+        System.out.println("Выдано " + first + " банкноты номиналом 100");  // думать метод
     }
 
 
