@@ -9,7 +9,7 @@ public class task1 {
         printTimeLength(timeTwo);
         }
 
-    public static void printTimeLength(TimeLength time) {
+    public static void printTimeLength(TimeLength time ) {
 
         System.out.println("time =    " + time);
         System.out.println("seconds = " + time.convertTimeToSeconds());
