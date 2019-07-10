@@ -29,11 +29,16 @@ import java.util.Scanner;
 
 public class TaskB3 {
     public static void main(String[] args) {
-        Scanner s=new Scanner(System.in);
-        int x=s.nextInt();
-        int sum=1;
-
-
-
+        Scanner s = new Scanner(System.in);
+        System.out.println("Введите число");
+        int x = s.nextInt();
+        int sum = 0;
+        for (int i = 1; i <= x; i++) {
+            sum += i;
+            if (sum >x){
+                break;
+            }
+            System.out.print(sum + ",");
+        }
     }
 }
